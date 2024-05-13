@@ -1,0 +1,42 @@
+.card {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    object-fit: cover;
+}
+
+.card-content {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.card-content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+.responsive-imgBanner {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
